@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Communities</title>
+	<link rel="stylesheet" type="text/css" href="webpages.css">
+</head>
+
+<body>
+<header>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\logo.png" alt="logo">
+	<div>
+		<h1>CodeAtlas</h1>
+		<p>Your Ultimate Map to Coding Resources</p>
+	</div>
+</header>
+
+<nav class="navbar">
+	<a href="C:\Users\HP\OneDrive\Desktop\wd project\website.html">Home</a>
+	<a href="C:\Users\HP\OneDrive\Desktop\wd project\coding platforms.html">Coding Platforms</a>
+	<a href="C:\Users\HP\OneDrive\Desktop\wd project\learning platforms.html">Learning Platforms</a>
+	<a href="C:\Users\HP\OneDrive\Desktop\wd project\collaboration platforms.html">Collaboration Platforms</a>
+	<a href="#">Communities</a>
+	<a href="#">Roadmaps</a>
+</nav>
+<br><br>
+<h1 class="main-title">Communities</h1>
+
+<div class="content-section">
+	<div class="toc">
+	<h3>Table of contents</h3>
+	<ul>
+		<li><a href="#general">General Coding Communities</a></li><br>
+		<li><a href="#forum">Forum-Based & Knowledge-Sharing Communities</a></li><br>
+		<li><a href="#open">Open Source & Contribution-Oriented Communities</a></li><br>
+		<li><a href="#student">Student & Learning Communities</a></li><br>
+		<li><a href="#career">Professional & Career-Focused Communities</a></li><br>
+	</ul>
+	</div>
+
+	<div class="content">
+	<p>Coding communities are groups of developers—ranging from beginners to experts—who come together to share knowledge, collaborate on projects, solve problems, and support each other’s learning and growth in programming and software development.</p>
+	<p>These communities often exist online in the form of forums, chat groups, discussion boards, or social platforms, though many also host local or global meetups, workshops, and events. Some are centered around specific programming languages or technologies, while others are more general or focused on career development, open-source collaboration, or student learning.</p>
+	<p>Key Characteristics: </p>
+	<ul>
+		<li><b>Collaborative Environment:</b>,Members help each other with debugging, brainstorming ideas, reviewing code, and providing constructive feedback.</li>
+		<li><b>Learning-Oriented: </b>Ideal for learning through interaction—ask questions, read others’ experiences, and gain insights into new tools or practices.</li>
+		<li><b>Diverse & Inclusive:</b>Open to everyone regardless of experience level, background, or location.</li>
+		<li><b>Motivating & Supportive:</b>Especially helpful for beginners or self-taught programmers who want to stay motivated and connected.</li>
+	</ul>
+	</div>
+</div>
+
+<section class="description">
+	<h2 id="general" class="section-title">General Coding Communities</h2><br>
+	<p>These are all-purpose platforms where developers from any background or skill level gather to discuss coding, share resources, and ask for help. The topics span across all languages, frameworks, tools, and experience levels—from complete beginners writing their first “Hello, World!” to seasoned professionals optimizing production code.</p>
+	<br>
+	<h3>Key Features: </h3>
+	<ul>
+		<li>Wide variety of questions and answers</li>
+		<li>Fast help from a large global user base</li>
+		<li>Inclusive of all technologies</li>
+		<li>Great for discovering trends, tools, and best practices</li>
+	</ul>
+	<h3>Best For: </h3>
+	<ul>
+		<li>Getting quick help on bugs or errors</li>
+		<li>Participating in global dev discussions</li>
+		<li>Learning from others’ coding experiences</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>Stack Overflow</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\stackoverflow.png" alt="stackoverflow logo">
+			<a href="https://stackoverflow.com/questions" target="_blank">stackoverflow.com</a>
+			<p> The largest Q&A site for developers. Ask questions, share solutions, and earn reputation by helping others. Covers virtually every language and framework.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>Reddit</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\reddit.jpg" alt="reddit logo">
+			<a href="https://www.reddit.com/" target="_blank">reddit.com</a>
+			<p>Subreddits offer informal, real-world advice, project help, and career guidance. Great for discussion-based learning and discovering new tools.</p>
+			<ul>
+				<li>r/learnprogramming</li>
+				<li>r/coding</li>
+				<li>/programming</li>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>Dev.to</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\dev.to.png" alt="dev.to logo">
+			<a href="https://dev.to/" target="_blank">dev.to</a>
+			<p>A welcoming blogging and discussion community where developers share tutorials, opinions, and stories. Highly beginner-friendly.</p>
+		</div>
+	</div>
+</section> 
+<br>
+
+<section class="description">
+	<h2 id="forum" class="section-title">Forum-Based & Knowledge-Sharing Communities</h2><br>
+	<p>These platforms focus on structured, long-form communication, often in the form of threads, replies, and knowledge hubs. Unlike real-time chat-based communities, these forums are designed for in-depth discussion and act as long-term reference libraries.</p>
+	<br>
+	<h3>Key Features: </h3>
+	<ul>
+		<li>Threaded discussions, searchable archives</li>
+		<li>Space for deep conceptual questions</li>
+		<li>Friendly for detailed problem solving and debates</li>
+		<li>Rich resources for design theory, architecture, and ideation</li>
+	</ul>
+	<h3>Best For: </h3>
+	<ul>
+		<li>Getting theoretical or conceptual clarification</li>
+		<li>Finding detailed responses and long-lasting references</li>
+		<li>Participating in ongoing developer conversations</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>Quora</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\quora.png" alt="quora logo">
+			<a href="https://www.quora.com/" target="_blank">quora.com</a>
+			<p>A place for broad, conceptual programming questions and advice. Best for getting varied perspectives on tools, careers, and strategies.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>SitePoint Forums</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\sitepoint.png" alt="sitepoint logo">
+			<a href="https://www.sitepoint.com/community/" target="_blank">sitepoint.com</a>
+			<p>Focuses on web development topics—HTML, CSS, JavaScript, and design principles. Great for frontend devs and designers.</p>
+		</div>
+		
+		<div class="platform-box"> 
+			<h3>CodeNewbie Community</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\codenewbie.png" alt="codenewbie logo">
+			<a href="https://community.codenewbie.org/" target="_blank">codenewbie.org</a>
+			<p>Especially for beginners and career switchers in tech. Supportive, inclusive, and filled with mentorship stories and resources.</p>
+		</div>
+	</div>
+</section>
+
+<section class="description">
+	<h2 id="open" class="section-title">Open Source & Contribution Communities</h2><br>
+	<p>These communities revolve around collaborative software development, especially contributing to publicly available, open-source codebases. They enable developers to work on real projects, suggest features, fix bugs, write documentation, and grow as team contributors.</p>
+	<h3>Key Features: </h3>
+	<ul>
+		<li>Real-world coding with distributed teams</li>
+		<li>Code reviews, pull requests, version control practices</li>
+		<li>Mentorship through contribution onboarding</li>
+		<li>Community-driven innovation and project maintenance</li>
+	</ul>
+	<h3>Best For: </h3>
+	<ul>
+		<li>Building your public portfolio</li>
+		<li>Collaborating on meaningful tech projects</li>
+		<li>Learning git workflows and professional dev practices</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>GitHub Discussions</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\github.jpg" alt="github logo">
+			<a href="https://github.com/" target="_blank">github.com</a>
+			<p>Collaborate directly within repos through issues and discussion threads. Great for contributing to open-source and learning best practices.</p>
+		</div>
+		
+		<div class="platform-box"> 
+			<h3>GitLab Forum</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\gitlab.png" alt="gitlab logo">
+			<a href="https://forum.gitlab.com/" target="_blank">forum.gitlab.com</a>
+			<p>A community for GitLab users and contributors to share ideas, seek help, and improve Git workflows.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>Open Source Guides</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\open source.png" alt="opensource logo">
+			<a href="https://opensource.guide/" target="_blank">opensource.guide</a>
+			<p> Educational resource by GitHub that explains how to contribute to and maintain open-source projects. Great for first-time contributors.</p>
+		</div>
+		
+		
+	</div>
+</section>
+
+<section class="description">
+	<h2 id="student" class="section-title">Learning & Student Coding Communities</h2><br>
+	<p>These platforms are built around education, bootcamps, self-study platforms, or academic courses. They’re optimized for beginners and intermediate learners and often include curriculum-based discussions, peer coding, and project showcases.</p>
+	<br>
+	<h3>Key Features: </h3>
+	<ul>
+		<li>Peer-to-peer learning, project sharing, and challenges</li>
+		<li>Structured around beginner resources and roadmaps</li>
+		<li>Safe spaces to ask basic questions and grow</li>
+		<li>Mentorship opportunities and coding challenges</li>
+	</ul>
+	<h3>Best For: </h3>
+	<ul>
+		<li>Students and career-switchers</li>
+		<li>Practicing coding fundamentals</li>
+		<li>Staying motivated through community learning</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>freeCodeCamp Forum</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\freecode camp.jpg" alt="freeCodeCamp logo">
+			<a href="https://forum.freecodecamp.org/" target="_blank">forum.freecodecamp.org</a>
+			<p>Discussion space for learners using freeCodeCamp’s curriculum. Ask questions, share projects, and get peer help.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>The Odin Project Discord</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\odin project.png" alt="odin project logo">
+			<a href="https://www.theodinproject.com/" target="_blank">theodinproject.com</a>
+			<p>Offers a full-stack curriculum with an active Discord server where learners share progress, ask questions, and join challenges.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>CS50 Community (Harvard)</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\cs50.png" alt="cs50 logo">
+			<a href="https://cs50.harvard.edu/x/2025/" target="_blank">cs50.harvard.edu/x/</a>
+			<p>The Harvard CS50 course has a huge community for students working on programming fundamentals and computer science principles.</p>
+		</div>
+	</div>
+</section> 
+<br>
+
+<section class="description">
+	<h2 id="career" class="section-title">Career-Focused & Professional Tech Groups</h2><br>
+	<p>These communities are tailored to career development, networking, mentorship, and inclusivity. They support developers seeking guidance in tech jobs, interviews, personal branding, and building supportive tech communities—especially underrepresented groups in tech.</p>
+	<br>
+	<h3>Key Features: </h3>
+	<ul>
+		<li>Job boards, interview prep, mentorship</li>
+		<li>Events, workshops, and professional growth resources</li>
+		<li>Focus on diversity, equity, and representation</li>
+		<li>Connects developers with opportunities and allies</li>
+	</ul>
+	<h3>Best For: </h3>
+	<ul>
+		<li>Building a professional network in tech</li>
+		<li>Finding inclusive spaces for growth</li>
+		<li>Participating in global initiatives and meetups</li>
+	</ul>
+</section>
+<br>
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>LinkedIn Tech Groups</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\linkedin.png" alt="linkedin logo">
+			<a href="https://www.linkedin.com/feed/" target="_blank">linkedin.com</a>
+			<p>Join tech-related groups like “Web Developers,” “JavaScript Enthusiasts,” and “Women Who Code” to connect and learn from professionals.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>Women Who Code</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\women who code.jpg" alt="women who code logo">
+			<a href="https://womenwhocode.com/" target="_blank">womenwhocode.com</a>
+			<p>A global non-profit with events, mentoring, and a job board focused on empowering women in tech.</p>
+		</div>
+	</div>
+</section> 
+
+
+<footer>
+	<p>Code smarter, Collaborate better, and turn your skills into success - start your journey with CodeAtlas today!</p>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Website</title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "Verdana", sans-serif;
+		}
+		
+		body{
+			margin: 0.5%;
+			background-color: #eef4f2;
+		}
+		
+		header{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			padding: 20px;
+			background-color: #e6eeec;
+			position: relative;
+		}
+		
+		header img{
+			position: absolute;
+			left: 22px;
+			height: 90px;
+		}
+		
+		header h1{
+			font-size: 40px;
+			text-align: center;
+			color: #2D4D47  ;
+		}
+		
+		header p{
+			font-size: 18px;
+			color: #707070;
+			text-align: center;
+		}
+		
+		.navbar{
+			display: flex;
+			justify-content: space-around;
+			background: #588C7E;
+			padding: 15px;
+			width: 100%;
+		}
+		
+		.navbar a{
+			color: white;
+			text-decoration: none;
+			padding: 10px 20px;
+			font-size: 16px;
+		}
+		
+		.navbar a:hover{
+			background: #79a398;
+			border-radius: 10px;
+		}
+		
+		.banner{
+			display: flex;
+			justify-content: center;
+			width: 100%;
+		}
+		
+		.banner img{
+			width: 100%;
+			height: 300px;
+			object-fit: cover;
+			display: block;
+		}
+		
+		.banner img:hover{
+			opacity: 0.8;
+		}
+		
+		section{
+			padding: 20px;
+			max-width: 1200px;
+			margin: auto;
+		}
+		
+		.intro{
+			text-align: center;
+			margin-bottom: 30px;
+			font-size: 18px;
+		}
+		
+		.languages-container{
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			margin-bottom: 40px;
+			background-color: #d6e2df;
+			border-radius: 10px;
+		}
+		
+		.languages-content{
+			flex: 1;
+			padding-right: 20px;
+		}
+		
+		.languages-content h2{
+			color: #375952;
+			margin-bottom: 10px;
+			font-size: 28px;
+		}
+		
+		.languages-content dl{
+			margin-top: 10px;
+			font-size: 16px;
+		}
+		
+		.languages-content dt{
+			font-weight: bold;
+			margin-top: 10px;
+		}
+		
+		.languages-image{
+			flex: 1;
+			display: flex;
+			justify-content: center;
+		}
+		
+		.languages-image img{
+			width: 100%;
+			max-width: 500px;
+			height: auto;
+			border-radius: 10px;
+		}
+		
+		.mission{
+			text-align: center;
+			padding: 30px;
+			margin-top: 20px;
+			background-color: #b4cbc5;
+			border-radius: 10px;
+		}
+		
+		.mission h2{
+			color: #4D716A ;
+			margin-bottom: 15px;
+			font-size: 28px;
+		}
+		
+		.mission ul{
+			list-style: none;
+			padding: 0;
+			font-size: 16px;
+		}
+		
+		.mission li{
+			margin-bottom: 10px;
+		}
+		
+		footer{
+			background: #375952;
+			color: white;
+			text-align: center;
+			padding: 20px;
+			margin-top: 40px;
+			font-size: 16px;
+		}
+	</style>
+</head>
+
+<body>
+<header>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\logo.png" alt="logo">
+	<div>
+		<h1>CodeAtlas</h1>
+		<p>Your Ultimate Map to Coding Resources</p>
+	</div>
+</header>
+
+<nav class="navbar">
+	<a href="#">Home</a>
+	<a href="#">Coding Platforms</a>
+	<a href="#">Learning Platforms</a>
+	<a href="#">Collaboration Platforms</a>
+	<a href="#">Communities</a>
+	<a href="#">Roadmaps</a>
+</nav>
+
+<section class="banner">
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\banner.png" alt="Banner">
+</section>
+<section class="intro">
+	<p><b>Welcome to CodeAtlas - your ultimate guide to the world of coding!</b> </p><br>
+	<p>In today's fast-paced world, finding the right resources to learn, practice and collaborate can be overwhelming. That's where CodeAtlas comes in. We've mapped out the best platforms for coding, so that you don't have to spend hours searching for the right place to start from.</p>
+	<br><p>Whether you are a beginner looking for structured tutorials, an experienced developer searching for the best coding tools, or a collaborator wanting to contribute to open-source projects, CodeAtlas has everything you need - all in one place!</p> 
+</section>
+
+<section class="languages-container">
+	<div class="languages-content">
+		<h2>Master 7 Powerful Programming Languages!</h2>
+		<p>Unlock the full potential of <b>Python, C, HTML, CSS, JavaScript, R and Java</b> with CodeAtlas - your one-stop hub for mastering these in-demand languages!</p>
+		<dl>
+			<dt><b>Learnt from the Best - Handpicked Courses and Tutorials</b></dt>
+			<dd>Master each language with structures roadmaps, expert-led cources, hands-on pronects tailored for beginners to pros, all handpicked just for you.</dd>
+
+			<dt><b>Code Like a Pro - The Best Tools & IDEs</b><dt>
+			<dd>Find the perfect coding environment! From online compulers to powerful IDEs, we help you choose the right platform to write and test your code</dd>
+
+			<dt><b>Collaborate & Grow - Join Developer Communities</b></dt>
+			<dd>Contribute to open-source projects, join coding forums, and connext with fellow developers to sharpen your skills and build a strong network</dd>
+			
+			<dt><b>Stay Ahead - Explore Rising Platforms & Trends</b></dt>
+			<dd>Keep up with the latest in AI-powered development, web frameworks and industry-leading tools that will shape the future of coding.</dd>
+		</dl>
+	</div>
+	<div class="languages-image">
+		<img src="C:\Users\HP\OneDrive\Desktop\wd project\2.png" alt="languages">
+	</div>
+</section>
+
+<section class="mission">
+	<h2>Our Mission</h2>
+	<p>At CodeAtlas, our mission is to empower developers at every stage of their journey by providing a structured, up-to-date, and comprehensive resource hub for learning, coding, collaboration and career growth.</p>
+	<br>
+	<ul>
+		<li><b>Simplify the Learning Process -</b> By curating the best tutorials, cources and structured roadmaps for programming languages. </li>
+		<li><b>Enhance Developer Productivity - </b>By offering a centralized platform to discover top coding tools, IDEs, and online compilers.</li>
+		<li><b>Encourage Collaboration & Open Source Contributions -</b>By connecting developers with thriving communities and open-cource projects. </li>
+		<li><b>Keep Developers Ahead of Industry Trends -</b>By highlighting emerging technologies, rising platforms and the latest frameworks. </li>
+	</ul>
+	<p>Our mission is simple: to guide developers at every stage of their journey by providing a well-organized and contastantly updated resource hub. Whether you're learning your first programming language or working on your next big project, CodeAtlas is here to help you navigate the coding universe.</p>
+</section>
+
+<footer>
+	<p>Code smarter, Collaborate better, and turn your skills into success - start your journey with CodeAtlas today!</p>
+</footer>
+
+</body>
+</html>

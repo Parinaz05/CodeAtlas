@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coding Platforms</title>
+	<style> 
+		*{
+			margin: 0px;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "Verdana", sans-serif;
+		}
+		
+		body{
+			margin: 0.5%;
+			background-color: #eef4f2;
+		}
+		
+		header{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			padding: 20px;
+			background-color: #e6eeec;
+			position: relative;
+		}
+		
+		header img{
+			position: absolute;
+			left: 22px;
+			height: 90px;
+		}
+		
+		header h1{
+			font-size: 40px;
+			text-align: center;
+			color: #2D4D47  ;
+		}
+		
+		header p{
+			font-size: 18px;
+			color: #707070;
+			text-align: center;
+		}
+		
+		.navbar{
+			display: flex;
+			justify-content: space-around;
+			background: #588C7E;
+			padding: 15px;
+			width: 100%;
+		}
+		
+		.navbar a{
+			color: white;
+			text-decoration: none;
+			padding: 10px 20px;
+			font-size: 16px;
+		}
+		
+		.navbar a:hover{
+			background: #79a398;
+			border-radius: 10px;
+		}
+		.main-title {
+			test-align: center;
+			font-size: 36px;
+			margin: 30px 0 10px;
+		}
+		.content-section {
+			display: flex;
+			gap: 20px;
+			margin: 20px;
+		}
+		.toc {
+			width: 25%;
+			gap: 20px;
+			margin: 20px;
+		}
+		.description {
+			width: 75%;
+		}
+		h2.section-title {
+			font-size: 28px;
+			margin-top: 40px;
+			text-align: center;
+		}
+		.subtext {
+			text-align: center;
+			color: #666;
+			margin-bottom: 20px;
+		}
+		.platform-grid {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px;
+			justify-content: center;
+		}
+		.platform-box {
+			width: 25%;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			padding: 10px;
+			box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+			text-align: center;
+			text-align: center;
+		}
+		.platform-box img {
+			width: 100%;
+			height: 120px;
+			object-fit: contain;
+			margin-bottom: 10px;
+		}
+			
+</head>
+
+<body>
+<header>
+	<img src="C:\Users\HP\OneDrive\Desktop\project\logo-removebg-preview.png" alt="logo">
+	<div>
+		<h1>CodeAtlas</h1>
+		<p>Your Ultimate Map to Coding Resources</p>
+	</div>
+</header>
+
+<nav class="navbar">
+	<a href="#">Home</a>
+	<a href="#">Coding Platforms</a>
+	<a href="#">Learning Platforms</a>
+	<a href="#">Collaboration Platforms</a>
+	<a href="#">Communities</a>
+	<a href="#">Roadmaps</a>
+</nav>
+
+<h1>Coding Platforms</h1>
+
+<div>
+	<h3>Table of contents</h3>
+	<ol>
+		<li><a href="type1">General-Purpose Platforms</a></li>
+		<li><a href="type2">Language-Specific Platforms</a></li>
+	</ol>
+		
+
+</div class="description">
+<p>Coding platforms are online environments that allow users to write, compile, execute, and debug code directly from a web browser. They eliminate the need for complex local setups, making them ideal for beginners, students, and developers who want to quickly test or share code. </p>
+<p>These platforms are commonly used for learning programming, building small projects, practicing problem-solving, and collaborating with others.</p>
+<p>Coding platforms are typically divided into two types: </p>
+<ol>
+	<li>General-purpose platforms, which support multiple languages</li>
+	<li>Language-specific platforms, which are tailored to a particular programming language or development environment</li>
+</ol>
+<p> Both types offer unique features suited to different coding needs and use cases.</p>
+
+<h2 id="type1" class="section-title">General-Purpose Platforms</h2>
+<p class="subtext">Multi-Langiage Support</p>
+<p style="text-align: center;">These platforms support multiple languages and are great for quick prototyping, learning, and collaboration.<p>
+<div> 
+	<h3>Replit</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\replit.png" alt="replit logo">
+	<a href="replit.com">Replit.com</a>
+	<p>Description: <p>
+	<p>Cloud-based IDE for collaborative coding, supports real-time sharing, terminal access, and hosting apps.</p>
+	<p>Supported Languages: </p>
+	<p>Python, C, JavaScript, HTML, CSS, R, and many more</p>
+</div>
+
+<div> 
+	<h3>JDoodle</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\jdoodle.png" alt="jdoodle logo">
+	<a href="jdoodle.com">JDoodle.com</a>
+	<p>Description: <p>
+	<p>Lightweight online compiler for many languages. Allows code execution with input and command-line args.</p>
+	<p>Supported Languages: </p>
+	<p>Python, C, JavaScript, R, and 70+ languages</p>
+</div>
+
+<div> 
+	<h3>Ideone</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\ideone.png" alt="ideone logo">
+	<a href="ideone.com">Ideone.com</a>
+	<p>Description: <p>
+	<p>Simple online compiler and debugger. Great for testing short snippets.</p>
+	<p>Supported Languages: </p>
+	<p>Python, C, JavaScript, R, and more</p>
+</div>
+
+<div> 
+	<h3>Paiza</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\paiza.io.png" alt="paiza logo">
+	<a href="paiza.io">Paiza.io</a>
+	<p>Description: <p>
+	<p>Online editor that lets you run code in real-time. Ideal for competitive coding practice.</p>
+	<p>Supported Languages: </p>
+	<p>Python, C, JavaScript, HTML, CSS, and others</p>
+</div>
+
+<div> 
+	<h3>Glitch</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\glitch.png" alt="glitch logo">
+	<a href="glitch.com">Glitch.com</a>
+	<p>Description: <p>
+	<p>Friendly online IDE for full-stack web development. Great for building and hosting web apps.</p>
+	<p>Supported Languages: </p>
+	<p>JavaScript, Node.js, HTML, CSS</p>
+</div>
+
+<div> 
+	<h3>OneCompiler</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\onecompiler.jpg" alt="onecompiler logo">
+	<a href="onecompiler.com">OneCompiler.com</a>
+	<p>Description: <p>
+	<p>Online compiler for many languages, also supports DBMS like SQL.</p>
+	<p>Supported Languages: </p>
+	<p>Python, C, R, JavaScript, HTML, CSS, and more</p>
+</div>
+
+<h2 id="type2" class="section-title">Language-Specific Platforms</h2>
+<p class="subtext">Optimized for a single programming language</p>
+<p style="text-align: center;">These are optimized for specific languages or stacks and provide better tooling, libraries, or execution environments.<p>
+<h3>Python</h3>
+<div> 
+	<h3>Google Colab</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="googlecolab logo">
+	<a href="colab.research.google.com">GoogleColab.com</a>
+	<p>Description: <p>
+	<p>Cloud-based Jupyter notebook environment by Google. Great for data science, machine learning.</p>
+</div>
+
+<div> 
+	<h3>Jupyter Notebook</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\jupyter notebook.png" alt="jypyter notebook logo">
+	<a href="jupyter.org">Jupyter.org</a>
+	<p>Description: <p>
+	<p>Local or cloud-based environment for interactive Python coding with Markdown, plotting, and data tools.</p>
+</div>
+
+<div> 
+	<h3>Python Anywhere</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\python anywhere.png" alt="pythonanywhere logo">
+	<a href="pythonanywhere.com">Pythonanywhere.com</a>
+	<p>Description: <p>
+	<p>Online IDE and web hosting for Python. Good for beginners and app deployment.</p>
+</div>
+
+<h3>C/C++</h3>
+<div> 
+	<h3>OnlineGBD</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\online gdb.jpg" alt="onlinegbd logo">
+	<a href="onlinegdb.com">Onlinegbd.com</a>
+	<p>Description: <p>
+	<p>Online compiler and debugger for C/C++ with IDE-like features and input support.</p>
+</div>
+
+<div> 
+	<h3>TutorialsPoint Coding Ground</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\tutorial point.png" alt="tutorialspoint logo">
+	<a href="tutoriaspoint.com/codingground.htm">tutoriaspoint.com/codingground.htm</a>
+	<p>Description: <p>
+	<p>Offers a quick way to compile and run C code with some IDE features.</p>
+</div>
+
+<div> 
+	<h3>Dev C++</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\dev c++.jpg" alt="devc++ logo">
+	<p>Description: <p>
+	<p>A lightweight, open-source IDE for C and C++. Good for Windows users, with modern features like syntax highlighting and debugging.</p>
+</div>
+
+<div> 
+	<h3>Turbo C</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\turbo c++.png" alt="turboC logo">
+	<p>Description: <p>
+	<p>A legacy IDE and compiler for C/C++, popular in educational use despite being outdated. DOS-based interface.</p>
+</div>
+
+<h3>JavaScript, HTML, CSS</h3>
+<div> 
+	<h3>CodePen</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\codepen.png" alt="codepen logo">
+	<a href="codepen.io">CodePen.io</a>
+	<p>Description: <p>
+	<p>A popular playground for front-end developers to test HTML, CSS, and JavaScript.</p>
+</div>
+
+<div> 
+	<h3>JSFiddle</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\jsfiddle.png" alt="JSFiddle logo">
+	<a href="jsfiddle.net">JSFiddle.net</a>
+	<p>Description: <p>
+	<p>Interactive IDE for HTML, CSS, and JavaScript with live preview.</p>
+</div>
+
+<div> 
+	<h3>PlayCode</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\playcode.png" alt="PlayCode logo">
+	<a href="playcode.io">PlayCode.io</a>
+	<p>Description: <p>
+	<p>Real-time online JavaScript playground. Supports external libraries and HTML/CSS preview.</p>
+</div>
+
+<h3>R Language</h3>
+<div> 
+	<h3>RStudio Cloud</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\rstudio.png" alt="rstudio logo">
+	<a href="rstudio.cloud">RStudio.cloud</a>
+	<p>Description: <p>
+	<p>Cloud-based RStudio IDE for R programming. Great for data science and education.</p>
+</div>
+
+<div> 
+	<h3>DataCamp Workspace</h3>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\datacamp workspace.png" alt="rstudio logo">
+	<a href="workspace.datacamp.com">Workspace.DataCamp.com</a>
+	<p>Description: <p>
+	<p>Interactive, cloud-based notebook-like environment for R and Python. Good for data analysis.</p>
+</div>
+
+</body>
+</html>

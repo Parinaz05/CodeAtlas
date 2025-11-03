@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coding Platforms</title>
+	<link rel="stylesheet" type="text/css" href="webpages.css">
+</head>
+
+<body>
+<header>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\logo.png" alt="logo">
+	<div>
+		<h1>CodeAtlas</h1>
+		<p>Your Ultimate Map to Coding Resources</p>
+	</div>
+</header>
+
+<nav class="navbar">
+	<a href="C:\Users\HP\OneDrive\Desktop\wd project\website.html">Home</a>
+	<a href="C:\Users\HP\OneDrive\Desktop\wd project\coding platforms.html">Coding Platforms</a>
+	<a href="C:\Users\HP\OneDrive\Desktop\wd project\learning platforms.html">Learning Platforms</a>
+	<a href="#">Collaboration Platforms</a>
+	<a href="#">Communities</a>
+	<a href="#">Roadmaps</a>
+</nav>
+<br><br>
+<h1 class="main-title">Collaborative Platforms</h1>
+
+<div class="content-section">
+	<div class="toc">
+	<h3>Table of contents</h3>
+	<ul>
+		<li><a href="#devops">Version Control & DevOps Platforms</a></li><br>
+		<li><a href="#opensrc">Open Source Contribution Platforms </a></li><br>
+		<li><a href="#team">Team Coding & Real-Time Collaboration</a></li><br>
+		<li><a href="#frontend">Frontend SandBox & Snippet Sharing</a></li><br>
+		<li><a href="#interview">Interview & Assessment Platforms </a></li><br>
+	</ul>
+	</div>
+
+	<div class="content">
+	<p>Collaboration and contribution platforms are digital environments that enable multiple developers to work together on software projects. These platforms support tasks like writing and reviewing code, tracking changes, fixing bugs, managing versions, and contributing to shared repositories—whether within a private team or in the open-source community.</p>
+	<p>They are essential tools in modern software development, allowing:</p>
+	<ul>
+		<li><b>Real-time or asynchronous collaboration </b>, across time zones and locations.</li>
+		<li><b>Version control</b>, to manage code changes and prevent conflicts.</li>
+		<li><b>Open-source contribution,</b> where developers contribute to public projects for learning, recognition, or impact.</li>
+		<li><b>Team productivity,</b> with features like issue tracking, pull requests, discussions, and CI/CD integration.</li>
+	</ul>
+	<p>As coding becomes an essential skill across industries, these platforms play a crucial role in making programming accessible, efficient, and enjoyable for learners and professionals alike.</p>
+	</div>
+</div>
+
+<section class="description">
+	<h2 id="devops" class="section-title">Version Control & DevOps Platform</h2><br>
+	<p>Version control and DevOps platforms are tools that help software development teams manage code changes, collaborate efficiently, and automate workflows throughout the software development lifecycle.</p>
+	<br>
+	<ul>
+		<li><b>Version control systems </b>allow developers to track and manage changes to source code over time. They make it easy to collaborate, revert to previous versions, and work on different features simultaneously through branching.</li>
+		<li><b>DevOps platforms</b>integrate development (Dev) and operations (Ops) by automating tasks such as building, testing, and deploying code. These tools promote continuous integration and continuous delivery (CI/CD), improving reliability, speed, and collaboration.</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>GitHub</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\github.jpg" alt="github logo">
+			<a href="https://github.com/" target="_blank">github.com</a>
+			<p><strong>Use Case: </strong><br>Version control, team collaboration, open-source projects.</p>
+			<p><strong>Why it's great: </strong><br> The go-to platform for millions of devs, supports both personal and team projects, massive open-source community.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Git-based repository hosting.</li>
+				<li>Pull requests for code review.</li>
+				<li>GitHub Actions for CI/CD.</li>
+				<li>GitHub Pages for hosting static sites.</li>
+			</ul>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>GitLab</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\gitlab.png" alt="gitlab logo">
+			<a href="https://about.gitlab.com/" target="_blank">gitlab.com</a>
+			<p><strong>Use Case: </strong><br>Complete DevOps lifecycle management.</p>
+			<p><strong>Why it's great: </strong><br> Ideal for teams wanting tighter CI/CD integration and more control over the dev process.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Self-hosted and cloud-hosted options.</li>
+				<li>CI/CD pipelines, issue tracking, project planning.</li>
+				<li>Wiki and code snippets.</li>
+			</ul>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>Bitbucket</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\bitbucket.jpg" alt="bitbucket logo">
+			<a href="https://bitbucket.org/" target="_blank">bitbucket.org</a>
+			<p><strong>Use Case: </strong><br>Version control + Jira integration.</p>
+			<p><strong>Why it's great: </strong><br>Perfect for teams already using the Atlassian ecosystem.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Git repository management.</li>
+				<li>Built-in CI/CD with Bitbucket Pipelines.</li>
+				<li>Direct integration with Atlassian tools (Jira, Trello).</li>
+			</ul>
+		</div>
+	</div>
+</section> 
+<br>
+
+<section class="description">
+	<h2 id="opensrc" class="section-title">Open Source Contribution Platforms</h2><br>
+	<p>Open source contribution platforms are online spaces where developers can collaborate on publicly accessible software projects. These platforms allow anyone to view, use, modify, and contribute to code—helping improve software while learning and building reputation.</p>
+	<br>
+	<h3>They support activities like:</h3>
+	<ul>
+		<li>Forking and cloning repositories</li>
+		<li>Submitting pull requests</li>
+		<li>Reporting issues and bugs</li>
+		<li>Participating in discussions</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>GitHub</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\github.jpg" alt="github logo">
+			<a href="https://github.com/explore" target="_blank">github.com</a>
+			<p><strong>Use Case: </strong><br>Contributing to and managing open-source software projects.</p>
+			<p><strong>Why it's great: </strong><br> Central hub for most modern open-source projects with powerful collaboration and version control tools.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Largest global community of developers and repositories.</li>
+				<li>Users can fork repositories, make changes, and create pull requests to suggest improvements.</li>
+				<li>Issues and discussions enable communication between contributors and maintainers.</li>
+			</ul>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>GitLab (Public Repos)</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\gitlab.png" alt="gitlab logo">
+			<a href="https://about.gitlab.com/solutions/open-source/" target="_blank">gitlab.com</a>
+			<p><strong>Use Case: </strong><br>Hosting and contributing to open-source projects with built-in CI/CD.</p>
+			<p><strong>Why it's great: </strong><br>Combines open-source collaboration with integrated deployment pipelines, ideal for both individuals and teams.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Offers public repositories similar to GitHub but with more built-in DevOps tools.</li>
+				<li>Strong support for merge requests, issue boards, and project management.</li>
+				<li>CI/CD pipelines are built-in and highly customizable.</li>
+			</ul>
+		</div>
+		
+		<div class="platform-box"> 
+			<h3>SourceForge</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\sourceforge.png" alt="sourceforge logo">
+			<a href="https://sourceforge.net/" target="_blank">sourceforge.net</a>
+			<p><strong>Use Case: </strong><br>Hosting legacy and niche open-source projects.</p>
+			<p><strong>Why it's great: </strong><br>Still relevant for long-standing open-source tools and developers who prefer a simpler, download-oriented system.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>One of the earliest platforms for open-source distribution.</li>
+				<li>Provides project download tracking, mirrors, community ratings, and forums.</li>
+				<li>Useful for older projects and large software distributions.</li>
+			</ul>
+		</div>
+
+	</div>
+</section>
+
+<section class="description">
+	<h2 id="team" class="section-title">Team Coding & Real-Time Collaboration Platforms</h2><br>
+	<p>Team coding and real-time collaboration platforms allow multiple developers to work together on the same codebase simultaneously. These tools enable live editing, shared terminals, and instant feedback—often from within the browser or IDE.aq</p>
+	<h3>Highlights:</h3>
+	<ul>
+		<li>Pair programming</li>
+		<li>Remote teamwork</li>
+		<li>Teaching and mentoring</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>Replit</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\replit.png" alt="replit logo">
+			<a href="https://replit.com/~" target="_blank">replit.com</a>
+			<p><strong>Use Case: </strong><br> Real-time coding in-browser.</p>
+			<p><strong>Why it's great: </strong><br>Perfect for quick collaboration, teaching, or demos.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>"Multiplayer" mode for collaborative editing.</li>
+				<li>Built-in terminal and debugger.</li>
+				<li>Runs dozens of languages (Python, C++, JS, etc.).</li>
+			</ul>
+		</div>
+		
+		<div class="platform-box"> 
+			<h3>Visual Studio Live Share</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\visual studio.png" alt="visual studio logo">
+			<a href="https://visualstudio.microsoft.com/services/live-share/" target="_blank">visualstudio.microsoft.com</a>
+			<p><strong>Use Case: </strong><br>Remote pair programming and live collaboration within VS Code.</p>
+			<p><strong>Why it's great: </strong><br> Seamless integration with VS Code makes it a powerful tool for distributed dev teams.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Share your editor, terminal, debugger, and app server in real-time.</li>
+				<li>No need to clone the project locally—join with just a link.</li>
+				<li>Supports co-editing, voice chat, and debugging together.</li>
+			</ul>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>CodeTogether</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\codetogether.png" alt="codetogether logo">
+			<a href="https://www.codetogether.com/" target="_blank">codetogether.com</a>
+			<p><strong>Use Case: </strong><br> Real-time team coding across different IDEs.</p>
+			<p><strong>Why it's great: </strong><br>Flexible and IDE-independent, ideal for diverse teams using different tools.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Lets developers join sessions from IntelliJ, Eclipse, and VS Code.</li>
+				<li>Supports real-time editing, chat, and optional voice integration.</li>
+				<li>Facilitates collaborative code reviews, teaching, and teamwork.</li>
+			</ul>
+		</div>
+		
+		
+	</div>
+</section>
+
+<section class="description">
+	<h2 id="frontend" class="section-title">Frontend Sandbox & Snippet Sharing Platforms</h2><br>
+	<p>Frontend sandbox and snippet sharing platforms are online tools that allow developers to write, test, and share small pieces of HTML, CSS, and JavaScript code. They provide a live preview of the output, making them ideal for quick experiments, demos, and learning.</p>
+	<br>
+	<p>These platforms are especially useful for:</p>
+	<ul>
+		<li>Prototyping front-end components</li>
+		<li>Debugging and showcasing code</li>
+		<li>Teaching and sharing examples</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>CodePen</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\codepen.png" alt="codepen logo">
+			<a href="https://codepen.io/" target="_blank">codepen.io</a>
+			<p><strong>Use Case: </strong><br>Building and sharing front-end prototypes.</p>
+			<p><strong>Why it's great: </strong><br>Ideal for designers, developers, and educators to showcase UI components and creative designs in an interactive environment.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Live preview panel for HTML, CSS, and JavaScript code.</li>
+				<li>Supports front-end frameworks like React, Vue, and Bootstrap.</li>
+				<li>Social features: "Pens", "Projects", and "Collections" can be shared and followed.</li>
+			</ul>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>JSFiddle</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\jsfiddle.png" alt="jsfiddle logo">
+			<a href="https://jsfiddle.net/" target="_blank">jsfiddle.net</a>
+			<p><strong>Use Case: </strong><br> Testing and debugging small JavaScript snippets.</p>
+			<p><strong>Why it's great: </strong><br>Lightweight and widely used by developers and educators to demonstrate issues or examples—especially on forums like Stack Overflow.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Separate panels for HTML, CSS, JavaScript, and live output.</li>
+				<li>Includes libraries and frameworks like jQuery, Angular, and Vue.</li>
+				<li>Can save and share fiddles via unique URLs.</li>
+			</ul>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>JSBin</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\jsbin.jpg" alt="jsbin logo">
+			<a href="https://jsbin.com/?html,output" target="_blank">jsbin.com</a>
+			<p><strong>Use Case: </strong><br>Quick prototyping and code sharing.</p>
+			<p><strong>Why it's great: </strong><br>Simple and fast, perfect for testing small frontend code snippets and collaborating with others in real time.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Git repository management.Real-time collaborative editing.Built-in CI/CD with Bitbucket Pipelines.</li>
+				<li>Auto-updating output panel for instant feedback.</li>
+				<li>Supports importing libraries and templates.</li>
+			</ul>
+		</div>
+	</div>
+</section> 
+<br>
+
+<section class="description">
+	<h2 id="frontend" class="section-title">Frontend Sandbox & Snippet Sharing Platforms</h2><br>
+	<p>Interview and assessment platforms are tools designed to conduct technical interviews and coding tests in a collaborative, real-time environment. They simulate real-world programming scenarios, allowing interviewers to evaluate candidates’ coding skills, problem-solving ability, and communication.</p>
+	<br>
+	<p>These platforms typically support:</p>
+	<ul>
+		<li>Real-time code execution</li>
+		<li>Multiple programming languages</li>
+		<li>Pair programming and whiteboard features</li>
+	</ul>
+</section>
+<br>
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>CoderPad</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\coderpad.jpg" alt="coderpad logo">
+			<a href="https://coderpad.io/" target="_blank">coderpad.io</a>
+			<p><strong>Use Case: </strong><br>Conducting technical interviews in real-time.</p>
+			<p><strong>Why it's great: </strong><br>Trusted by top tech companies to simulate real-world development environments during interviews.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Supports live coding interviews in over 30 programming languages.</li>
+				<li>Real-time code execution and collaborative editing.</li>
+				<li>Features like whiteboarding and session playback for review.</li>
+			</ul>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>CodeInterview</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\codeinterview.jpg" alt="codeinterview logo">
+			<a href="https://codeinterview.io/" target="_blank">codeinterview.io</a>
+			<p><strong>Use Case: </strong><br> Simple and efficient technical assessments.</p>
+			<p><strong>Why it's great: </strong><br>Streamlined and user-friendly, making it easy for recruiters and developers alike to focus on coding, not setup.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Real-time collaborative code editor with integrated audio chat.</li>
+				<li>Allows interviewers to create custom test cases for evaluating code logic.</li>
+				<li>No setup needed—just share a session lin</li>
+			</ul>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>Interviewing.io</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\interviewing.io.jpg" alt="interviewing.io logo">
+			<a href="https://interviewing.io/" target="_blank">interviewing.io</a>
+			<p><strong>Use Case: </strong><br> Practicing and conducting anonymous technical interviews.</p>
+			<p><strong>Why it's great: </strong><br>Ideal for developers seeking interview practice or direct hiring opportunities in a low-pressure, realistic environment.</p>
+			<p><strong>Key Features:</strong></p>
+			<ul>
+				<li>Simulated interviews with experienced engineers from real companies.</li>
+				<li>Offers anonymity so candidates can focus on performance without pressure.</li>
+				<li>Option to reveal identity and convert practice sessions into real job interviews.</li>
+			</ul>
+		</div>
+	</div>
+</section> 
+
+
+<footer>
+	<p>Code smarter, Collaborate better, and turn your skills into success - start your journey with CodeAtlas today!</p>
+</footer>
+
+</body>
+
+</html>

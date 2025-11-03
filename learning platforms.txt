@@ -1,0 +1,442 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coding Platforms</title>
+	<style> 
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "Verdana", sans-serif;
+		}
+		body{
+			margin: 0.5%;
+			background-color: #eef4f2;
+		}
+		header{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			padding: 20px;
+			background-color: #e6eeec;
+			position: relative;
+		}
+		header img{
+			position: absolute;
+			left: 22px;
+			height: 90px;
+		}
+		header h1{
+			font-size: 40px;
+			text-align: center;
+			color: #2D4D47  ;
+		}
+		header p{
+			font-size: 18px;
+			color: #707070;
+			text-align: center;
+		}
+		.navbar{
+			display: flex;
+			justify-content: space-around;
+			background: #588C7E;
+			padding: 15px;
+			width: 100%;
+		}
+		.navbar a{
+			color: white;
+			text-decoration: none;
+			padding: 10px 20px;
+			font-size: 16px;
+		}
+		.navbar a:hover{
+			background: #79a398;
+			border-radius: 10px;
+		}
+		.content-section {
+			margin: 40px 60px; /* Adds top/bottom and left/right margin to the whole section */
+			display: flex;
+			gap: 3rem; /* More gap between TOC and content */
+		}
+		.toc {
+			flex: 1;
+			border: 2px solid #ccc;
+			padding: 1rem;
+			background-color: #f9f9f9;
+			border-radius: 8px;
+			max-width: 250px;
+			position: sticky;
+			top: 1rem;
+			height: fit-content;
+			margin-top: 20px; /* Adds space above TOC if needed */
+		}
+		.content {
+			flex: 3;
+			font-size: 1.1rem;
+			line-height: 1.6;
+			margin-top: 20px; /* Adds space above content */
+		}
+		.toc h3 {
+			font-weight: bold;
+			margin-bottom: 0.5rem;
+		}
+		.toc ul {
+			list-style-type: disc;
+			padding-left: 1.2rem;
+		}
+		.toc ul ul {
+			list-style-type: circle;
+			padding-left: 1.5rem;
+		}
+		.main-title {
+			text-align: center;
+			font-size: 2.5rem;
+			font-weight: bold;
+			margin-bottom: 1rem;
+			color: #355f55;
+		}
+		h2.section-title {
+			font-size: 28px;
+			margin-top: 40px;
+			text-align: center;
+			color: #457a6c;
+		}
+		.description {
+			margin: 30px 40px;
+			font-family: "Verdana", sans-serif;
+		}
+		.description ul {
+			list-style-type: disc;
+			padding-left: 20px;   
+		}
+		.description li {
+			margin-bottom: 8px;
+		}
+
+		.description h3 {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		.box {
+			border: 2px solid #ccc;
+			padding: 1rem;
+			margin-top: 1rem;
+			border-radius: 10px;
+			background-color: #d6e2df;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+		}
+		.platform-grid {
+			background-color: #d6e2df;
+			display: flex;
+			flex-wrap: wrap;
+			gap: 1.5rem;
+			justify-content: center;
+		}
+		.platform-box {
+			background-color: #b4cbc5;
+			flex: 1 1 300px;;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			padding: 1rem;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			max-width: 100%;
+		}
+		.platform-box img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: 0.5rem auto;
+		}
+		.platform-box a {
+			display: block;
+			margin-bottom: 10px;
+			color: #0077cc;
+			font-weight: bold;
+		}
+		footer{
+			background: #375952;
+			color: white;
+			text-align: center;
+			padding: 20px;
+			margin-top: 40px;
+			font-size: 16px;
+		}
+	</style>
+</head>
+
+<body>
+<header>
+	<img src="C:\Users\HP\OneDrive\Desktop\wd project\logo.png" alt="logo">
+	<div>
+		<h1>CodeAtlas</h1>
+		<p>Your Ultimate Map to Coding Resources</p>
+	</div>
+</header>
+
+<nav class="navbar">
+	<a href="#">Home</a>
+	<a href="#">Coding Platforms</a>
+	<a href="#">Learning Platforms</a>
+	<a href="#">Collaboration Platforms</a>
+	<a href="#">Communities</a>
+	<a href="#">Roadmaps</a>
+</nav>
+<br><br>
+<h1 class="main-title">Learning Platforms</h1>
+
+<div class="content-section">
+	<div class="toc">
+	<h3>Table of contents</h3>
+	<ul>
+		<li><a href="#free">Free Platforms</a></li>
+		<li><a href="#paid">Paid Platforms</a></li>
+		<li><a href="#uni">University-Level Platforms</a></li>
+		<li><a href="#interact">Interactive Platforms</a></li>
+		<li><a href="#lang">Language-Specific Tutorials</a></li>
+	</ul>
+	</div>
+
+	<div class="content">
+	<p>Learning platforms for coding are online tools and environments designed to help individuals acquire programming skills, from beginners to advanced developers. These platforms vary in structure and focus, but they typically offer interactive, structured, and often gamified learning experiences.</p>
+	<p>Coding learning platforms are websites or apps that provide structured tutorials, challenges, courses, and hands-on projects to help users learn programming languages, tools, and software development concepts.</p>
+	<h3>Key Features:</h3>
+	<ul>
+		<li><b>Interactive coding environments: </b> Write and run code in-browser without setup.</li>
+		<li><b>Step-by-step lessons: </b>Progress through concepts from basics to advanced.</li>
+		<li><b>Quizzes and exercises: </b>Reinforce understanding through challenges.</li>
+		<li><b>Real-world projects: </b>Build websites, apps, or data projects to apply skills.</li>
+		<li><b>Progress tracking: </b>Monitor learning journey, streaks, and course completion.</li>
+		<li><b>Community and forums: </b>Discuss doubts, get feedback, and collaborate.</li>
+	</ul>
+	</div>
+</div>
+	
+
+<h2 id="free">Free Platforms</h2><br>
+<section class="description">
+	<p>Free platforms provide open access to coding tutorials, challenges, and documentation. They're perfect for beginners, self-learners, or anyone looking to explore programming without a financial commitment. While they may lack structured learning paths or advanced features, they offer strong foundational material and large community support.</p>
+	<br>
+	<h3>Highlights:</h3>
+	<ul>
+		<li>No cost to get started</li>
+		<li>Covers a variety of programming languages and topics</li>
+		<li>Community-driven support and forums</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>freeCode Camp</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="freeCode Camp logo">
+			<a href="https://www.freecodecamp.org" target="_blank">freecodecamp.org</a>
+			<p><strong>Languages: </strong><br>JavaScript, HTML, CSS, Python (limited)</p>
+			<p><strong>Highlights: </strong><br> Hands-on coding with certifications, strong front-end curriculum.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>The Odin Project</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="the odin project logo">
+			<a href="https://www.theodinproject.com" target="_blank">theodinproject.com</a>
+			<p><strong>Languages: </strong><br>JavaScript, HTML, CSS</p>
+			<p><strong>Highlights: </strong><br>Full-stack curriculum, project-based, ideal for beginners.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>CS50 by Harvard (edX)</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="cs50 logo">
+			<a href="https://cs50.harvard.edu" target="_blank">cs50.harvard.edu</a>
+			<p><strong>Languages: </strong><br> C, Python, HTML, CSS</p>
+			<p><strong>Highlights: </strong><br>University-level course, available for free, project-rich.</p>
+		</div>
+		
+		<div class="platform-box"> 
+			<h3>RStudio Education</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="cs50 logo">
+			<a href="https://education.rstudio.com" target="_blank">education.rstudio.com</a>
+			<p><strong>Languages: </strong><br> R</p>
+			<p><strong>Highlights: </strong><br>Beginner to advanced content, free courses and tutorials.</p>
+		</div>
+	</div>
+</section> 
+<br>
+
+<section class="description">
+	<h2 id="paid">Paid Platforms </h2><br>
+	<p>Paid platforms typically offer premium features such as structured career paths, real-time feedback, hands-on projects, quizzes, and professional certificates. They’re designed for serious learners or professionals aiming for skill advancement, job transitions, or specialization.</p>
+	<br>
+	<h3>Highlights:</h3>
+	<ul>
+		<li>Guided learning paths and progress tracking</li>
+		<li>Industry-relevant content with expert instructors</li>
+		<li>Often include certificates and job prep tools</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>Udemy</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="udemy logo">
+			<a href="https://www.udemy.com" target="_blank">udemy.com</a>
+			<p><strong>Languages: </strong><br>Python, C/C++, JS, R, HTML, CSS</p>
+			<p><strong>Highlights: </strong><br>One-time payment, many instructors, lifetime access.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>Pluralsight</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="pluralsight logo">
+			<a href="https://www.pluralsight.com" target="_blank">pluralsight.com</a>
+			<p><strong>Languages: </strong><br> Python, C++, JavaScript, HTML, CSS</p>
+			<p><strong>Highlights: </strong><br> High-quality video content, assessments, skill paths.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>Linkedin Learning</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="linkedin learning logo">
+			<a href="https://www.linkedin.com/learning" target="_blank">linkedin.com/learning</a>
+			<p><strong>Languages: </strong><br> Python, C/C++, JS, R, HTML, CSS</p>
+			<p><strong>Highlights: </strong><br>Professional content, certificates, integrates with LinkedIn.</p>
+		</div>
+	</div>
+</section>
+
+<section class="description">
+	<h2 id="uni">University-Level Platforms</h2><br>
+	<p>University-level platforms offer coding and computer science education in the form of structured courses, often created and taught by professors from top universities. These platforms provide academic-level depth, theory-backed explanations, and sometimes even certifications.</p>
+	<h3>Highlights:</h3>
+	<ul>
+		<li>Comprehensive courses modeled after actual university curricula</li>
+		<li>Taught by academic professionals or institutions (e.g., Harvard, MIT, Stanford)</li>
+		<li>Often include lectures, readings, assignments, and quizzes</li>
+		<li>Some offer certificates or even full degrees (free or paid)</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>Coursera</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="linkedin learning logo">
+			<a href="https://www.coursera.org" target="_blank">coursera.org</a>
+			<p><strong>Languages: </strong><br> Python, C/C++, JS, R, HTML, CSS</p>
+			<p><strong>Highlights: </strong><br> Courses from universities like Stanford, Michigan, etc. Free to audit, paid certificates.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>edX</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="linkedin learning logo">
+			<a href="https://www.edx.org" target="_blank">edx.org</a>
+			<p><strong>Languages: </strong><br>Python, C/C++, R, HTML, CSS</p>
+			<p><strong>Highlights: </strong><br> Offers MicroMasters and full degree programs.</p>
+		</div>
+	</div>
+</section>
+
+<section class="description">
+	<h2 id="interact">Interactive Platforms</h2><br>
+	<p>Interactive platforms make learning to code hands-on and engaging by letting users write and run code directly in the browser. Instead of passively watching videos or reading, learners actively solve problems, complete challenges, and get instant feedback. This approach reinforces understanding and builds real coding confidence.</p>
+	<h3>Highlights::</h3>
+	<ul>
+		<li>Real-time coding exercises and feedback</li>
+		<li>Learn by doing — solve challenges, build projects</li>
+		<li>Great for visual learners and beginners</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>CodeCademy</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="codecademy logo">
+			<a href="https://www.codecademy.com" target="_blank">codecademy.com</a>
+			<p><strong>Languages: </strong><br> Python, C/C++, JS, R, HTML, CSS</p>
+			<p><strong>Highlights: </strong><br>Hands-on code editor, structured curriculum, gamified.</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>DataCamp</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="datacamp logo">
+			<a href="https://www.datacamp.com" target="_blank">datacamp.com</a>
+			<p><strong>Languages: </strong><br> Python, R</p>
+			<p><strong>Highlights: </strong><br>Focuses on data science and analytics. Interactive coding, career tracks.</p>
+		</div>
+		
+		<div class="platform-box"> 
+			<h3>Codinggame</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="codinggame logo">
+			<a href="https://www.codingame.com" target="_blank">codinggame.com</a>
+			<p><strong>Languages: </strong><br> C/C++, Python, JavaScript</p>
+			<p><strong>Highlights: </strong><br> Learn through competitive programming and games.</p>
+		</div>
+	</div>
+</section>
+
+<section class="description">
+	<h2 id="lang">Language-Specific Tutorials </h2><br>
+	<p>Language-specific tutorials focus on teaching one programming language in depth. These resources are structured to guide learners through the syntax, concepts, and applications of a particular language, often progressing from basics to advanced topics. They’re ideal for mastering a language thoroughly, whether for general use, a specific job role, or academic study.</p>
+	<h3>What they offer:</h3>
+	<ul>
+		<li>Step-by-step lessons tailored to one language</li>
+		<li>In-depth coverage of language features, libraries, and best practices</li>
+		<li>Often include exercises, examples, and mini-projects</li>
+	</ul>
+	<h3>Great for:</h3>
+	<ul>
+		<li>Beginners looking to learn a single language thoroughly</li>
+		<li>Developers switching to a new language</li>
+		<li>Focused preparation for interviews or certification</li>
+	</ul>
+</section>
+
+<section class="box">
+	<div class="platform-grid">
+		<div class="platform-box"> 
+			<h3>Python</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="realpython logo">
+			<a href="https://realpython.com" target="_blank">realpython.com</a>
+			<p><strong>Platform: </strong><br>Real Python – In-depth tutorials, books, and videos</p>
+		</div>
+
+		<div class="platform-box"> 
+			<h3>C/C++</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="learncpp logo">
+			<a href="https://www.learncpp.com" target="_blank">learncpp.com</a>
+			<p><strong>Platform: </strong><br>LearnCpp – Free and comprehensive</p>
+		</div>
+		
+		<div class="platform-box"> 
+			<h3>JavaScript</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="javascript logo">
+			<a href="https://javascript.info" target="_blank">javascript.info</a>
+			<p><strong>Platform: </strong><br>JavaScript.info – Interactive and modern</p>
+		</div>
+		
+		<div class="platform-box"> 
+			<h3>R</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="swirlstats logo">
+			<a href="https://swirlstats.com" target="_blank">swirlstats.com</a>
+			<p><strong>Platform: </strong><br>Swirl – Learn R inside RStudio</p>
+		</div>
+		
+		<div class="platform-box"> 
+			<h3>HTML/CSS</h3>
+			<img src="C:\Users\HP\OneDrive\Desktop\wd project\google colab.png" alt="mdn logo">
+			<a href="https://developer.mozilla.org/en-US/" target="_blank">developer.mozilla.org</a>
+			<p><strong>Platform: </strong><br>MDN Web Docs – By Mozilla, trusted and thorough</p>
+		</div>
+	</div>
+</section>
+
+
+
+<footer>
+	<p>Code smarter, Collaborate better, and turn your skills into success - start your journey with CodeAtlas today!</p>
+</footer>
+
+</body>
+
+</html>
